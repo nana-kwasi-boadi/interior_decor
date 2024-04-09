@@ -1,0 +1,83 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #b6455e;
+	padding: 10px 20px;
+	color: black;
+}
+
+.h1 {
+	color: white;
+}
+
+.company-logo {
+	width: 70px;
+	height: 70px;
+}
+
+.options {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.account-btn,
+.cart-btn {
+	padding: 16px;
+	border: none;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropbtn {
+	padding: 16px;
+	border: none;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+.icon {
+	float: right;
+	margin-left: 5px;
+}
+
+.rotate {
+	transform: rotateX(180deg);
+}
+
+.dropdownContent {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 100px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdownContent p {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  border-top: solid #f9f9f9 1px;
+}
+
+.dropdownContent p:hover {
+	background-color: black;
+  color: white;
+}
+
+.dropdown:hover .dropdownContent {
+	display: block;
+}

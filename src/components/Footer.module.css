@@ -1,0 +1,42 @@
+.footer {
+	background-color: #b6455e;
+	color: white;
+	padding: 20px;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+    margin-top: 10%;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	a {
+		color: #fff;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	p {
+		margin: 5px 0;
+	}
+}
+
+span {
+	display: inline;
+}
+
+.icon {
+	display: inline-block;
+}
